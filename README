@@ -1,0 +1,35 @@
+The project is on student database administration. Here we register a student through admin login and then we see the list of students registered and 
+about us page.
+1)Login page:
+  a) Created login page which requires username and password to be entered.
+   The username should have all alphabets.
+  b)Password is of type "password", so that it will not display actual password.
+    User privacy in enforced.
+  c)User should check to agree terms and conditons
+  d)Then we can login which takes to register student page.
+2)Register
+  a)It is a student registration form
+  b)Roll number of a student is already assigned so the input box is disabled
+  c)First name and last name is required and only alphabets are allowed where validation is done
+    through regex.
+  d)User can enter birthday using the icon on top right of input where they can select the
+    birthday from calender. This is user friendly and avoids typing mistake.
+  e)Phone number must be 10 digits. Have user minlength=10 and maxlength=10 attribute in 
+    the input. only numbers are allowed which is done validation through regex.
+  f)Grade level of a student is selected from drop down. 
+  g)Using review button user can review if they have entered all details correctly. This done
+    using JavaScript where the value entered from the form are assigned to an array and then
+    printed in a card as a paragraph. It shows the field name and value entered in the form.
+  h)Submit button is of type submit. So if all the validation is correct the form will accept the
+    values and it will be submitted.
+  i)navigation bar is included in this page which also has logout button
+3)List of students
+  a)Here I am displaying the list of students by creaing a student object and creating a card    dynamically and its values are assigned using javascript.
+4)About us 
+  a)This page contains details of the school where the fonts are used from google font.
+  B)Background color is set so that the letters are visible.
+Each page has a logo on the top left and background of the school picture.
+
+
+
+
